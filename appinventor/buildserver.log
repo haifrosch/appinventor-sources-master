@@ -1,0 +1,122 @@
+Buildfile: /vagrant/appinventor/build.xml
+
+RunLocalBuildServer:
+
+init:
+
+common_CommonUtils:
+
+init:
+
+CommonUtils:
+
+common_CommonVersion:
+
+init:
+
+CommonVersion:
+
+components_CommonConstants:
+
+init:
+
+CommonConstants:
+
+CopyToRunLibDir:
+
+components_AndroidRuntime:
+
+common_CommonVersion:
+
+init:
+
+CommonVersion:
+
+init:
+
+HtmlEntities:
+
+Barcode:
+
+CopyComponentLibraries:
+
+common_CommonUtils:
+
+init:
+
+CommonUtils:
+
+CommonConstants:
+
+AnnotationProcessors:
+
+AndroidRuntime.uptodate:
+
+AndroidRuntime:
+
+BuildServer:
+
+RunLocalBuildServer:
+     [java] Jan 21, 2024 3:31:08 PM com.sun.jersey.api.core.ClasspathResourceConfig init
+     [java] INFO: Scanning for root resource and provider classes in the paths:
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/BuildServer.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/CommonConstants.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/CommonUtils.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/CommonVersion.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/FastInfoset-1.2.2.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/activation-1.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/args4j-2.0.18.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/asm-3.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/bcpkix-jdk15on-149.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/bcprov-jdk15on-149.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/builder-1.3.0.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/builder-model-1.3.0.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/common-24.3.0.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/commons-io-2.0.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/ecj-4.5.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/grizzly-servlet-webserver-1.9.18-i.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/guava-14.0.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/http-20070405.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jackson-core-asl-1.9.4.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jaxb-api-2.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jaxb-impl-2.1.10.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jaxb-xjc.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jdom-1.0.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jersey-bundle-1.3.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jersey-multipart-1.3.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jettison-1.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/json.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/jsr311-api-1.1.1.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/layoutlib-api-24.3.0.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/localizer.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/mail-1.4.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/rome-0.9.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/sdk-common-24.3.0.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/sdklib.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/stax-api-1.0-2.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/wadl-cmdline.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/wadl-core.jar
+     [java]   /vagrant/appinventor/buildserver/build/run/lib/wadl2java.jar
+     [java] Jan 21, 2024 3:32:08 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+     [java] INFO: Root resource classes found:
+     [java]   class com.google.appinventor.buildserver.BuildServer
+     [java] Jan 21, 2024 3:32:08 PM com.sun.jersey.api.core.ScanningResourceConfig init
+     [java] INFO: No provider classes found.
+     [java] Jan 21, 2024 3:32:08 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+     [java] INFO: Initiating Jersey application, version 'Jersey: 1.3 06/17/2010 05:04 PM'
+     [java] Jan 21, 2024 3:32:09 PM com.sun.grizzly.Controller logVersion
+     [java] INFO: Starting Grizzly Framework 1.9.18-i - Sun Jan 21 15:32:09 UTC 2024
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: App Inventor Build Server - Version: @git.build.version@
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: App Inventor Build Server - Git Fingerprint: @git.build.fingerprint@
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: Running at: http://127.0.1.1:9990/buildserver
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: Maximum simultanous builds = unlimited!
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: Visit: http://127.0.1.1:9990/buildserver/health for server health
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: Visit: http://127.0.1.1:9990/buildserver/vars for server values
+     [java] Jan 21, 2024 3:32:09 PM com.google.appinventor.buildserver.BuildServer main
+     [java] INFO: Server running
